@@ -1,0 +1,120 @@
+.post-card {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid var(--Neutral-9, #DDD);
+}
+
+.post-card-image {
+    height: 206px;
+    padding: 19px 0 0 21px;
+    border-radius: 8px 8px 0 0;
+    align-self: stretch;
+    background-size: cover;
+}
+
+.post-card-category {
+    display: flex;
+    width: fit-content;
+    padding: 6px 12px;
+    align-items: flex-start;
+    gap: 10px;
+    z-index: 1;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.20);
+}
+
+.post-card-category p {
+    color: var(--neutral-12-white, #FFF);
+    font-family: Manrope;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 13.5px */
+    letter-spacing: 1.035px;
+    text-transform: uppercase;
+}
+
+.post-card-body {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.post-card-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.post-card-title h2 {
+    color: var(--neutral-1-black, #191919);
+    margin: 0;
+    /* Heading/H4 */
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 26px */
+    letter-spacing: -0.2px;
+}
+
+.post-card-title time {
+    margin: 0;
+    color: #000;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: -0.12px;
+}
+
+.post-card-description {
+    align-self: stretch;
+    color: var(--neutral-1-black, #191919);
+    /* Body/Large */
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.16px;
+}
+
+.post-card-description p {
+    margin: 0;
+}
+
+.post-card-button {
+    display: flex;
+    padding: 6px 12px 6px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--Neutral-4, #5A5A5A);
+    background: var(--neutral-12-white, #FFF);
+    cursor: pointer;
+    /* Body/Large */
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.16px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-card-button img {
+    width: 16px;
+    height: 16px;
+}

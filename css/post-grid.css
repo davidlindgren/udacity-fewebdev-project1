@@ -1,0 +1,16 @@
+.post-grid {
+    display: grid;
+    max-width: 1100px;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+@media (min-width: 1100px) {
+    .post-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .post-card:first-child {
+        grid-column: span 2;
+    }
+}

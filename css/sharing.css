@@ -1,0 +1,44 @@
+.post-sharing {
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.post-sharing h3 {
+    margin: 0;
+    display: flex;
+    padding: 0 10px 10px;
+    align-items: flex-start;
+    color: #000;
+    /* Heading/H4 */
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 26px */
+    letter-spacing: -0.2px;
+}
+
+.post-sharing-buttons-area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.post-sharing-buttons-area button {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: var(--Primary-3, #0226E1);
+    border: none; 
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}

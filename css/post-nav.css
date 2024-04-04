@@ -1,0 +1,32 @@
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.post-nav button {
+    display: flex;
+    flex: 0 1 170px;
+    padding: 6px 12px 6px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 6px;
+    border: 1px solid var(--Neutral-4, #5A5A5A);
+    background: var(--neutral-12-white, #FFF);
+
+    color: var(--Neutral-2, #313131);
+
+    /* Body/Large */
+    font: 500 16px/160% Manrope;
+    letter-spacing: -0.16px;
+
+    cursor: pointer; 
+}
+
+.post-nav a {
+    text-decoration: none;
+    color: inherit;
+}

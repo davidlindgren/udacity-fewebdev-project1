@@ -1,0 +1,41 @@
+@import "header.css";
+@import "post-grid.css";
+@import "post-card.css";
+@import "post-card-images.css";
+@import "post.css";
+@import "footer.css";
+
+body {
+    min-width: 323px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font: 400 16px/1.5 "Manrope", sans-serif;
+    color: var(--neutral-1-black, #191919);
+    background: var(--neutral-12-white, #FFF);
+}
+
+.home {
+    background: linear-gradient(135deg, #b2fefa7e, #8585851f, #a0c4ff7e) 200% 200%;
+    animation: gradientAnimation 20s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 20px;
+}

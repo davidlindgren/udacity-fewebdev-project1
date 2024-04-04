@@ -1,0 +1,24 @@
+#post-card-img-1,
+#post-card-img-2,
+#post-card-img-3,
+#post-img-1 {
+    background-position: center;
+}
+
+#post-card-img-1 {
+    background-image: url("../assets/images/Teresópolis_high2.png");
+}
+
+#post-card-img-2 {
+    background-image: url("../assets/images/istockphoto-1416945671-612x612.jpg");
+}
+
+#post-card-img-3 {
+    background-image: url("../assets/images/20114544435_4f1fd55d55_h.jpg");
+    background-position: bottom;
+}
+
+#post-img-1 {
+    background-image: url("../assets/images/70b5a9a7-city-8000-16d8fc5bc98.jpg");
+    background-position: cover;
+}

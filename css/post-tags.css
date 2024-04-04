@@ -1,0 +1,7 @@
+#tag-1 {
+    background: var(--Primary-10, #CEDFFF);
+}
+
+#tag-2 {
+    background: var(--Feedback-Failure-11, #FFD5D5);
+}
